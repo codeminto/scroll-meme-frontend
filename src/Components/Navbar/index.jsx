@@ -300,7 +300,7 @@ function Navbar() {
 							style={{ marginRight: "5px" }}
 							className="btn btn-primary highlight"
 						>
-							@{user.farcaster ? user.farcaster.username : ""}
+							@{user?.farcaster ? user.farcaster.username : ""}
 						</a>
 					) : (
 						<a
